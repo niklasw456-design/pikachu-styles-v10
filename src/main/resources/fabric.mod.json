@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "texturemixer",
+  "version": "${version}",
+  "name": "Pikachu Styles",
+  "description": "Erkennt Texturepacks im resourcepacks-Ordner und lässt dich pro Gegenstand (Schwerter, Rüstung, Crystals, Totem-Sound, Tränke, ...) wählen, aus welchem Pack die Textur kommt.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.texturemixer.TextureMixerClient"
+    ],
+    "modmenu": [
+      "de.texturemixer.compat.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
